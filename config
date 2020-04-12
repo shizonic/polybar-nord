@@ -55,7 +55,6 @@ include-file = /home/$USER/.config/polybar/modules/wlan
 include-file = /home/$USER/.config/polybar/modules/xbacklight
 
 [bar/main]
-;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 25
 bottom = true
