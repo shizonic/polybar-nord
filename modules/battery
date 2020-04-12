@@ -26,6 +26,6 @@ ramp-capacity-1 = %{T2}%{T-}
 ramp-capacity-2 = %{T2}%{T-}
 ramp-capacity-3 = %{T2}%{T-}
 ramp-capacity-4 = %{T2}%{T-}
-ramp-capacity-5 = %{T2}%{T-}
+ramp-capacity-5 = %{T2}%{T-}
 ramp-capacity-background = ${colors.nord2}
 ramp-capacity-padding = 1
