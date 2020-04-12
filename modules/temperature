@@ -1,0 +1,19 @@
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp><label>
+format-underline = ${colors.nord2}
+format-warn = <ramp><label-warn>
+format-warn-underline = ${self.format-underline}
+label = " %temperature-c% "
+label-background = ${colors.nord3}
+label-warn = " %temperature-c% "
+label-warn-foreground = ${colors.fg}
+
+ramp-0 = %{T2}%{T-}
+ramp-1 = %{T2}%{T-}
+ramp-2 = %{T2}%{T-}
+ramp-background = ${colors.nord2}
+ramp-padding = 1

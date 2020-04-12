@@ -1,0 +1,6 @@
+[module/firefox]
+type = custom/script
+click-left = firefox --browser
+exec = echo %{T3}%{T-}
+format-foreground = ${colors.firefox}
+format-padding = 1

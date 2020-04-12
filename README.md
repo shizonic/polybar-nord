@@ -6,4 +6,4 @@
 - On Debian/Ubuntu: `sudo apt install fonts-font-awesome`
 
 ## Wallpaper
-- [backiee](https://backiee.com/wallpaper/fantasy/58875)
+- [GDrive](https://drive.google.com/file/d/1qUQ6zqRoja3HU2esxw9vNKfaK_tfSDFb/view?usp=sharing)

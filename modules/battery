@@ -1,0 +1,31 @@
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+full-at = 98
+
+format-background = ${colors.nord3}
+format-charging = <ramp-capacity><label-charging>
+format-charging-background = ${self.format-background}
+label-charging = " %percentage%% "
+label-charging-background = ${self.format-background}
+
+format-discharging = <ramp-capacity><label-discharging>
+format-discharging-background = ${self.format-background}
+label-discharging = " %percentage%% "
+label-discharging-background = ${self.format-background}
+
+format-full = <ramp-capacity><label-full>
+format-full-background = ${self.format-background}
+format-full-prefix-background = ${self.ramp-capacity-background}
+label-full = " %percentage%% "
+label-full-background = ${self.format-background}
+
+ramp-capacity-0 = %{T2}%{T-}
+ramp-capacity-1 = %{T2}%{T-}
+ramp-capacity-2 = %{T2}%{T-}
+ramp-capacity-3 = %{T2}%{T-}
+ramp-capacity-4 = %{T2}%{T-}
+ramp-capacity-5 = %{T2}%{T-}
+ramp-capacity-background = ${colors.nord2}
+ramp-capacity-padding = 1
