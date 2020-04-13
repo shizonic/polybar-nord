@@ -4,13 +4,11 @@ interface = wlp2s0
 interval = 1.0
 
 format-connected = <label-connected>
-format-connected-foreground = ${colors.white}
 format-connected-prefix = %{T2}%{T-}
 format-connected-prefix-background = ${colors.nord2}
 format-connected-prefix-padding = 1
 label-connected = "  %downspeed%  %upspeed% "
 label-connected-background = ${colors.nord3}
-label-connected-foreground = ${colors.white}
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = %{T2}%{T-}
@@ -18,4 +16,3 @@ format-disconnected-prefix-background = ${self.format-connected-prefix-backgroun
 format-disconnected-prefix-padding = 1
 label-disconnected = " %ifname% "
 label-disconnected-background = ${colors.nord3}
-label-disconnected-foreground = ${colors.danger}
