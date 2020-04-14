@@ -1,0 +1,6 @@
+[module/lockscreen]
+type = custom/script
+click-left = i3lock -n -c 03101C -e -f
+exec = echo %{T3}%{T-}
+format-foreground = ${colors.white}
+format-padding = 1
