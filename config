@@ -1,77 +1,51 @@
-;==========================================================
-;
-;
-;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
-;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
-;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
-;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
-;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
-;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-;
-;
 ;   To learn more about how to configure Polybar
 ;   go to https://github.com/polybar/polybar
-;
-;   The README contains a lot of information
-;
-;==========================================================
 
-[colors]
-bg = #000
-fg = #FFF
+include-file = /home/$USER/.config/polybar/colors
 
-black = #000
-white = #FFF
-red = #F00
-trans = #00000000
-semi-trans = #55000000
-success = #00c853
-warning = #ffea00
-danger = #ff1744
-
-code = #4F80FF
-google-chrome = #4C8BF5
-i3 = #ECEFF4
-firefox = #FFEC4A
-session = #EBCB8B
-steam = #00adee
-terminal = #63FC01
-
-nord1 = #2E3440
-nord2 = #3B4252
-nord3 = #434C5E
-nord4 = #4C566A
-
-[global/wm]
 include-file = /home/$USER/.config/polybar/modules/battery
 include-file = /home/$USER/.config/polybar/modules/cpu
 include-file = /home/$USER/.config/polybar/modules/date
+include-file = /home/$USER/.config/polybar/modules/filemanager
 include-file = /home/$USER/.config/polybar/modules/i3
+include-file = /home/$USER/.config/polybar/modules/launcher
+include-file = /home/$USER/.config/polybar/modules/lockscreen
 include-file = /home/$USER/.config/polybar/modules/memory
 include-file = /home/$USER/.config/polybar/modules/pulseaudio
 include-file = /home/$USER/.config/polybar/modules/session
 include-file = /home/$USER/.config/polybar/modules/temperature
+include-file = /home/$USER/.config/polybar/modules/title
+include-file = /home/$USER/.config/polybar/modules/window
 include-file = /home/$USER/.config/polybar/modules/wlan
 include-file = /home/$USER/.config/polybar/modules/xbacklight
+include-file = /home/$USER/.config/polybar/modules/xworkspaces
+
+include-file = /home/$USER/.config/polybar/modules/code
+include-file = /home/$USER/.config/polybar/modules/firefox
+include-file = /home/$USER/.config/polybar/modules/google-chrome
+include-file = /home/$USER/.config/polybar/modules/steam
+include-file = /home/$USER/.config/polybar/modules/terminal
 
 [bar/main]
 width = 100%
-height = 25
+height = 28
 bottom = true
 fixed-center = true
 
-background = ${colors.nord1}
+background = ${colors.polar-night-1}
 foreground = ${colors.fg}
 
-font-0 = "SauceCodePro Nerd Font:style=Medium:size=9;3"
-font-1 = "FontAwesome:size=10;3"
+font-0 = "SauceCodePro Nerd Font:style=Medium:size=9;2"
+font-1 = "SauceCodePro Nerd Font:style=Bold:size=9;2"
+font-2 = "SauceCodePro Nerd Font:size=12;3"
+font-3 = "SauceCodePro Nerd Font:size=16;4"
 
-modules-left = i3
-modules-center = 
-modules-right = memory cpu xbacklight pulseaudio wlan battery temperature date session
+modules-left = launcher xworkspaces
+modules-center = date
+modules-right = xbacklight pulseaudio wlan battery session
 
+tray-background = ${colors.polar-night-2}
 tray-position = right
-tray-background = ${colors.nord3}
 tray-maxsize = 16
 
 cursor-click = pointer

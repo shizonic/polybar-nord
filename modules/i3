@@ -4,23 +4,18 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-; focused = Active workspace on focused monitor
-label-focused = %{T2}%{T-}
-label-focused-background = ${colors.nord2}
+label-focused = %index%
+label-focused-foreground = ${colors.white}
 label-focused-padding = 1
 
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %{T2}%{T-}
-label-unfocused-background = ${colors.nord4}
-label-unfocused-padding = ${self.label-focused-padding}
+label-unfocused = %index%
+label-unfocused-foreground = ${colors.white}
+label-unfocused-padding = 1
 
-; visible = Active workspace on unfocused monitor
-label-visible = %{T2}%{T-}
-label-visible-background = ${self.label-focused-background}
+label-visible = %index%
+label-visible-foreground = ${self.label-focused-foreground}
 label-visible-padding = ${self.label-focused-padding}
 
-; urgent = Workspace with urgency hint set
-label-urgent = %{T2}%{T-}
-label-urgent-background = ${self.label-focused-background}
+label-urgent = %index%
 label-urgent-foreground = ${colors.danger}
 label-urgent-padding = ${self.label-focused-padding}

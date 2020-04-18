@@ -2,8 +2,8 @@
 type = internal/memory
 interval = 1
 
-format-background = ${colors.nord3}
-format-prefix = %{T2}%{T-}
-format-prefix-background = ${colors.nord2}
-format-prefix-padding = 1
-label = " %percentage_used%% "
+format-padding = 1
+format-prefix = %{T3}﬙%{T-}
+format-prefix-foreground = ${colors.nord-blue-light}
+label = " %percentage_used%%"
+label-foreground = ${colors.nord-blue-light}
