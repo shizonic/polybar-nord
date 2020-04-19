@@ -7,4 +7,4 @@
 - [Nord Rofi Theme](https://github.com/Murzchnvok/nord-rofi-theme)
 
 ## Wallpaper
-- [wallpapersden](https://wallpapersden.com/peyto-lake-4k-wallpaper/)
+- [GDrive](https://drive.google.com/open?id=1kgGY2QLpeCu4ITYUpcU9O2WCiIB4UZXh)
