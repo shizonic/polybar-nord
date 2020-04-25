@@ -11,7 +11,6 @@ label-volume-padding = 1
 format-muted-padding = 1
 label-muted = %{T3}ﱝ%{T-}
 label-muted-foreground = ${colors.nord-red}
-label-muted-padding = 1
 
 ramp-volume-0 = %{T3}奄%{T-}
 ramp-volume-1 = %{T3}奔%{T-}
