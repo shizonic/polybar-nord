@@ -3,6 +3,6 @@ type = custom/script
 
 click-left = rofi -show drun
 click-right = rofi -show run
-exec = echo %{T4}%{T-}
-format-foreground = ${colors.nord-yellow}
+exec = echo %{T4}%{T-}
+format-foreground = ${colors.nord-blue-light}
 format-padding = 1
