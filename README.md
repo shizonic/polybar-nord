@@ -7,4 +7,4 @@
 - [Nord Rofi Theme](https://github.com/Murzchnvok/nord-rofi-theme)
 
 ## Wallpaper
-- [GDrive](https://drive.google.com/open?id=1kgGY2QLpeCu4ITYUpcU9O2WCiIB4UZXh)
+- [GDrive](https://drive.google.com/open?id=1VAz1QF7De_EI_EEqD-BI1pVrznGPFqfk)
