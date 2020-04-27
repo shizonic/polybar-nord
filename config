@@ -42,7 +42,7 @@ font-3 = "SauceCodePro Nerd Font:size=16;4"
 
 modules-left = launcher xworkspaces
 modules-center = date
-modules-right = xbacklight pulseaudio wlan battery session
+modules-right = memory cpu xbacklight pulseaudio wlan battery session
 
 tray-background = ${colors.polar-night-2}
 tray-position = right
