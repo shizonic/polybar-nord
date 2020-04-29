@@ -5,5 +5,5 @@ click-left = firefox --browser&
 click-middle = killall firefox&
 click-right = firefox --private-window&
 exec = echo %{T4}%{T-}
-format-foreground = ${colors.firefox}
+format-foreground = ${colors.nord-yellow}
 format-padding = 1

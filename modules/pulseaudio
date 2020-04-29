@@ -2,8 +2,7 @@
 type = internal/pulseaudio
 use-ui-max = false
 
-;format-volume = <ramp-volume> <bar-volume>
-format-volume = <ramp-volume>
+format-volume = <ramp-volume> <bar-volume>
 format-volume-padding = 1
 label-volume = %percentage%%
 label-volume-foreground = ${colors.nord-yellow}
@@ -13,9 +12,9 @@ format-muted-padding = 1
 label-muted = %{T3}ﱝ%{T-}
 label-muted-foreground = ${colors.nord-red}
 
-bar-volume-empty = 
-bar-volume-fill = 
-bar-volume-indicator = 
+bar-volume-empty = 
+bar-volume-fill = 
+bar-volume-indicator = 
 bar-volume-width = 10
 bar-volume-empty-foreground = ${colors.polar-night-4}
 bar-volume-indicator-foreground = ${colors.snow-storm-1}

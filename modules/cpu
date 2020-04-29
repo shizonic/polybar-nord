@@ -2,8 +2,7 @@
 type = internal/cpu
 interval = 1
 
-;format = <ramp-load> <bar-load>
-format = <ramp-load>
+format = <ramp-load> <bar-load>
 format-padding = 1
 ;format-prefix = %{T3}%{T-}
 format-prefix-foreground = ${colors.nord-yellow}
@@ -12,9 +11,9 @@ label =
 label-foreground = ${colors.nord-yellow}
 label-padding = 1
 
-bar-load-empty = 
-bar-load-fill = 
-bar-load-indicator = 
+bar-load-empty = 
+bar-load-fill = 
+bar-load-indicator = 
 bar-load-width = 10
 bar-load-empty-foreground = ${colors.polar-night-4}
 bar-load-indicator-foreground = ${colors.snow-storm-1}

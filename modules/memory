@@ -2,8 +2,7 @@
 type = internal/memory
 interval = 1
 
-;format = <ramp-used> <bar-used>
-format = <ramp-used>
+format = <ramp-used> <bar-used>
 format-padding = 1
 ;format-prefix = %{T3}﬙%{T-}
 format-prefix-foreground = ${colors.nord-blue-light}
@@ -12,9 +11,9 @@ label =
 label-foreground = ${colors.nord-blue-light}
 label-padding = 1
 
-bar-used-empty = 
-bar-used-fill = 
-bar-used-indicator = 
+bar-used-empty = 
+bar-used-fill = 
+bar-used-indicator = 
 bar-used-width = 10
 bar-used-empty-foreground = ${colors.polar-night-4}
 bar-used-indicator-foreground = ${colors.snow-storm-1}

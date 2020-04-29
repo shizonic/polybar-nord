@@ -5,5 +5,5 @@ click-left = google-chrome --new-window&
 click-middle = killall chrome&
 click-right = google-chrome --incognito&
 exec = echo %{T4}%{T-}
-format-foreground = ${colors.google-chrome}
+format-foreground = ${colors.nord-blue-light}
 format-padding = 1

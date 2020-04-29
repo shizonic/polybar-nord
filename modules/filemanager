@@ -3,5 +3,5 @@ type = custom/script
 
 click-left = xdg-open ~/&
 exec = echo %{T4}%{T-}
-format-foreground = ${colors.filemanager}
+format-foreground = ${colors.snow-storm-3}
 format-padding = 1

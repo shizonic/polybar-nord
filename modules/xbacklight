@@ -1,15 +1,14 @@
 [module/xbacklight]
 type = internal/xbacklight
 
-;format = <ramp> <bar>
-format = <ramp>
+format = <ramp> <bar>
 format-padding = 1
 label = %percentage%%
 label-padding = 1
 
-bar-empty = 
-bar-fill = 
-bar-indicator = 
+bar-empty = 
+bar-fill = 
+bar-indicator = 
 bar-width = 10
 bar-empty-foreground = ${colors.polar-night-4}
 bar-indicator-foreground = ${colors.snow-storm-1}
