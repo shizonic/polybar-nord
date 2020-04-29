@@ -1,6 +1,6 @@
 [module/cpu]
 type = internal/cpu
-interval = 1
+interval = 0.5
 
 format = <ramp-load> <bar-load>
 format-padding = 1
